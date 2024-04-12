@@ -1,0 +1,6 @@
+metric, polyp, avg 
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ], 0.15660754804485108, 0.15660754804485108 
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ], 0.22012525919494844, 0.22012525919494844 
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ], 0.0, 0.0 
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ], 0.003726353732960689, 0.003726353732960689 
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ], 0.2910485309659692, 0.2910485309659692 
