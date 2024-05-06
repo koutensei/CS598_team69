@@ -213,7 +213,7 @@ def create_prompt(cls_names, imgs, tokenizer, model, vqa_names, real_names, lama
                 # color, shape, location = ans_dict['color'], ans_dict['shape'], lama_info['location'][j]
                 color, shape, location = cls_dict[i]['color'], cls_dict[i]['shape'], lama_info['location'][j]
                 name = f'{real_names[i]}'#f'{color} {shape} {real_names[i]}'
-                prefix, suffix = f'{color} ', f' in {location} cells'#f' {location}'
+                prefix, suffix = f'{color}'+f' {shape} ', f' in {location} cells'#f' {location}'
                 caption['prefix'] += [prefix]
                 caption['name'] += [name]
                 caption['suffix'] += [suffix]
