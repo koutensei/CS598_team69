@@ -14,8 +14,17 @@ To get the MLM method generated prompts
 ```
 python make_autopromptsv2.py --dataset 'kvasir' \
       --cls_names 'polyp' \
-      --vqa_names 'wound'\
+      --vqa_names 'bump'\
       --mode 'lama'\
+      --real_cls_names 'bump'
+```
+
+To get the OFA method generated prompts
+```
+%run make_autopromptsv2.py --dataset 'kvasir' \
+      --cls_names 'polyp' \
+      --vqa_names 'bump'\
+      --mode 'hybrid'\
       --real_cls_names 'bump'
 ```
 
