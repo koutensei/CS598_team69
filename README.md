@@ -10,4 +10,13 @@ Configuration Files
 
 We follow the config file format used in the GLIP project. Please refer to the sample config file we provided to create your own config file. Note: The DATASETS.CAPTION_PROMPT content is ignore by our code, as our code use the automatically generated code instead of user inputted prompt.
 
+To get the MLM method generated prompts
+```
+python make_autopromptsv2.py --dataset 'kvasir' \
+      --cls_names 'polyp' \
+      --vqa_names 'wound'\
+      --mode 'lama'\
+      --real_cls_names 'bump'
+```
+
 
